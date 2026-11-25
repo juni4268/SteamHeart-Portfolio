@@ -3,6 +3,7 @@
 Unity 6로 만든 2D 사이드뷰 액션 어드벤처 **SteamHeart**의 게임 코드입니다.
 
 - 영상과 구현 설명: https://juni4268.github.io/steamheart/
+- 플레이 빌드 (Windows): [Releases](https://github.com/juni4268/SteamHeart-Portfolio/releases/latest)
 - 이 저장소는 포트폴리오용으로 **코드만** 공개합니다. 그래픽, 사운드, 씬, 프리팹은 팀원들의 작업물이라 포함하지 않았고, 이 저장소만으로는 Unity에서 게임을 실행할 수 없습니다.
 
 ## 개요
