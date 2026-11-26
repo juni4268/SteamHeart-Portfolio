@@ -2,7 +2,7 @@
 
 ![SteamHeart 최종 보스전 플레이 화면](Docs/images/gameplay.gif)
 
-쓰러진 할아버지의 기계 심장을 되살릴 코어를 찾아 도시의 하층에서 상층으로 올라가는 2D 사이드뷰 액션 어드벤처입니다.
+고철을 모아 제작대에서 강화하고, 보스 둘을 쓰러뜨리며 도시의 하층에서 상층으로 올라가는 2D 사이드뷰 액션 어드벤처입니다.
 
 - 영상과 구현 설명: https://juni4268.github.io/steamheart/
 - 플레이 빌드 (Windows): [Releases](https://github.com/juni4268/SteamHeart-Portfolio/releases/latest)
