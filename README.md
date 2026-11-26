@@ -21,17 +21,23 @@
 
 소개 페이지에서 영상과 함께 설명하는 부분입니다.
 
-**최종 보스의 부위별 공격 패턴**
+### 최종 보스의 부위별 공격 패턴
+
 최종 보스는 손 네 개와 링을 따로 움직입니다. 주요 패턴은 시작하기 전에 필요한 부위를 예약하고, 예약되지 않은 손은 계속 빔을 쏩니다. 체력이 절반 아래로 내려가면 2페이즈가 됩니다.
-→ [`Boss2PartUsage.cs`](Assets/Scripts/Boss/Boss2/Core/Boss2PartUsage.cs), [`Boss2PatternRunner.cs`](Assets/Scripts/Boss/Boss2/Core/Boss2PatternRunner.cs)
 
-**중간 보스의 공격 패턴과 잔해 연계**
+코드: [`Boss2PartUsage.cs`](Assets/Scripts/Boss/Boss2/Core/Boss2PartUsage.cs), [`Boss2PatternRunner.cs`](Assets/Scripts/Boss/Boss2/Core/Boss2PatternRunner.cs)
+
+### 중간 보스의 공격 패턴과 잔해 연계
+
 중간 보스는 양손으로 네 가지 패턴을 씁니다. 내려찍기가 바닥에 잔해를 남기고, 과부하는 그 잔해를 쳐서 벽까지 날립니다. 잔해가 사라지면 다음 공격으로 내려찍기를 예약해 다시 채웁니다.
-→ [`Boss1PatternSelector.cs`](Assets/Scripts/Boss/Boss1/Core/Boss1PatternSelector.cs), [`Boss1DebrisField.cs`](Assets/Scripts/Boss/Boss1/Patterns/Debris/Boss1DebrisField.cs)
 
-**사망 후에도 이어지는 성장**
+코드: [`Boss1PatternSelector.cs`](Assets/Scripts/Boss/Boss1/Core/Boss1PatternSelector.cs), [`Boss1DebrisField.cs`](Assets/Scripts/Boss/Boss1/Patterns/Debris/Boss1DebrisField.cs)
+
+### 사망 후에도 이어지는 성장
+
 죽으면 처리장 입구에서 최대 체력으로 다시 시작합니다. 모아 둔 고철과 강화는 그대로 남고, 파일로 저장해서 게임을 껐다 켜도 유지됩니다.
-→ [`PlayerRuntimeState.cs`](Assets/Scripts/Player/Progress/PlayerRuntimeState.cs), [`PlayerPermanentProgress.cs`](Assets/Scripts/Player/Progress/PlayerPermanentProgress.cs), [`PlayerRespawnController.cs`](Assets/Scripts/Player/PlayerRespawnController.cs)
+
+코드: [`PlayerRuntimeState.cs`](Assets/Scripts/Player/Progress/PlayerRuntimeState.cs), [`PlayerPermanentProgress.cs`](Assets/Scripts/Player/Progress/PlayerPermanentProgress.cs), [`PlayerRespawnController.cs`](Assets/Scripts/Player/PlayerRespawnController.cs)
 
 ## 조작
 
